@@ -50,7 +50,8 @@ ex) a,b,c,d, // e,f,g
   
 MiME타입-> 문서를 올바르게 전당하기 위해 필요.
 일반적인 구조: type/subtype 
-개별 타입: text/plain or text/html or image/jpeg ... 등등 //참조 https://developer.mozilla.org/ko/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
+개별 타입: text/plain or text/html or image/jpeg ... 등등 
+*참조 https://developer.mozilla.org/ko/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
 
 
 
