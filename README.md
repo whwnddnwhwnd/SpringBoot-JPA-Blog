@@ -151,9 +151,28 @@ select문 실행시 영속화되어있는지 확인 -> 영속화 되어있다면
 update문 실행시 DB에서 데이터를 가져온뒤 영속화 시킨다 -> 해당 영속화된 오브젝트의 값을 변경 -> 변경 후 save를 호출 -> 영속화 되어있는 데이터를 update -> DB에 flush ->완료
 
 
+---------------------------------
 
 
+Get요청 -> HttpBody로 데이터를 담아 보내지 않음
 
+
+Post,Put,Delete(데이터 변경) 요청  -> 데이터를 담아 보내야 할 것이 많음..
+
+
+Form 태그 ->method가 get,post 요청뿐
+
+
+put,delete의 경우 자바스크립트로 요청을 해야함 ==> 자바스크립트로 AJAX요청, 데이터는 JSON으로 통일
+
+
+form:form 태그 -> post,put,delete,get요청 모두 가능함
+
+
+오브젝트로 데이터받기..
+
+
+Post방식의 key:value (x-www-form-urlencoded) ->
 
 
 
