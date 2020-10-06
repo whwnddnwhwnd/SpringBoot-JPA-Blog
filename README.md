@@ -127,5 +127,34 @@ application.yml 설정
 *참조 https://getinthere.tistory.com/20
 
 
+영속성 컨텍스트
+
+
+요청 ----> Controller -----> 응답 (Insert, Update, Delete, Select)
+
+
+JAP(영속성 컨텍스트)
+
+
+Insert---> 1차캐시(객체가쌓임) ---flush---> 객체를 DB에 전달
+
+
+flush == DB에 저장하지만 1차캐시의 객체는 저장되어 있음
+
+
+1차 캐시에 있는 객체 == 영속화 되었다.
+
+
+select문 실행시 영속화되어있는지 확인 -> 영속화 되어있다면 바로 DB에 접근하지 않고 바로 전달
+
+
+update문 실행시 DB에서 데이터를 가져온뒤 영속화 시킨다 -> 해당 영속화된 오브젝트의 값을 변경 -> 변경 후 save를 호출 -> 영속화 되어있는 데이터를 update -> DB에 flush ->완료
+
+
+
+
+
+
+
 
 
