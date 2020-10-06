@@ -121,5 +121,11 @@ MiME타입-> 문서를 올바르게 전당하기 위해 필요.
 *참조 https://developer.mozilla.org/ko/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
 
 
+application.yml 설정
+
+
+*참조 https://getinthere.tistory.com/20
+
+
 
 
